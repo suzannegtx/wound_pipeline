@@ -1,0 +1,1 @@
+"""Wound analysis pipeline package."""

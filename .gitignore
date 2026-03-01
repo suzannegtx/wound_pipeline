@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Outputs / logs
+outputs/
+runs/
+logs/
+*.log
+
+# Weights / artifacts
+download_dummy_weights/
+weights/
+*.pth
+*.pt
+*.onnx
+
+# --- IMPORTANT: dataset inside the repo folder (DO NOT TRACK) ---
+model_training/wound-segmentation/data/
+model_training/wound-segmentation/**/data/
+model_training/wound-segmentation/**/Foot_Ulcer_Segmentation_Challenge*/
+model_training/wound-segmentation/**/Foot Ulcer Segmentation Challenge*/
+model_training/wound-segmentation/**/Foot_Ulcer_Segmentation_Challenge*/
+# (optionnel) si tu veux ignorer tout le repo dataset cloné :
+model_training/wound-segmentation/
+
+# OS
+.DS_Store
+Thumbs.db
